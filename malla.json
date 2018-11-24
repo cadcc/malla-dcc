@@ -347,7 +347,7 @@
                     "creditos": "6"
                 },
                 {
-                    "codigo": "EL004",
+                    "codigo": "EL0004",
                     "nombre": "Electivo de Licenciatura 4",
                     "nombre corto": "Electivo",
                     "requisitos": [],
@@ -467,8 +467,8 @@
                     "creditos": "6"
                 },
                 {
-                    "codigo": "FE0001",
-                    "nombre": "Formación Integral de Especialidad I",
+                    "codigo": "FE0002",
+                    "nombre": "Formación Integral de Especialidad II",
                     "nombre corto": "FI Especialidad",
                     "requisitos": [],
                     "creditos": "3"
