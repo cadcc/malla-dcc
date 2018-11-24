@@ -1,0 +1,479 @@
+{
+    "semestres": [
+        {
+            "numero": "1",
+            "ramos": [
+                {
+                    "codigo": "FI1001",
+                    "nombre": "Introducción a la Física Newtoniana",
+                    "nombre corto": "Intro a la Física",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA1001",
+                    "nombre": "Introducción al Cálculo",
+                    "nombre corto": "Intro al Cálculo",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA1101",
+                    "nombre": "Introducción al Álgebra",
+                    "nombre corto": "Intro al Álgebra",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC1000",
+                    "nombre": "Herramientas Computacionales para Ingeniería y Ciencias",
+                    "nombre corto": "Herramientas",
+                    "requisitos": [],
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "EI1001",
+                    "nombre": "Introducción a la Ingeniería I",
+                    "nombre corto": "Intro a la Ing",
+                    "requisitos": [],
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "CM1001",
+                    "nombre": "Química",
+                    "nombre corto": "Química",
+                    "requisitos": [],
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "numero": "2",
+            "ramos": [
+                {
+                    "codigo": "FI1002",
+                    "nombre": "Sistemas Newtonianos",
+                    "nombre corto": "Sist. Newtonianos",
+                    "requisitos": ["FI1001", "CC1000/CC1001", "MA1001"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA1002",
+                    "nombre": "Cálculo Diferencial e Integral",
+                    "nombre corto": "Diferencial",
+                    "requisitos": ["MA1001", "MA1101S"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA1102",
+                    "nombre": "Álgebra Lineal",
+                    "nombre corto": "Lineal",
+                    "requisitos": ["MA1001S", "MA1101"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC1002",
+                    "nombre": "Introducción a la Programación",
+                    "nombre corto": "Progra",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EI1102",
+                    "nombre": "Introducción a la Ingeniería II",
+                    "nombre corto": "Intro II",
+                    "requisitos": [],
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "FG001",
+                    "nombre": "Formación Integral",
+                    "nombre corto": "Formación Integral",
+                    "requisitos": [],
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "numero": "3",
+            "ramos": [
+                {
+                    "codigo": "FI2001",
+                    "nombre": "Mecánica",
+                    "nombre corto": "Mecánica",
+                    "requisitos": ["FI1002", "MA1002", "MA1102"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA1002",
+                    "nombre": "Cálculo en Varias Variables",
+                    "nombre corto": "CVV",
+                    "requisitos": ["MA1002", "MA1102"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA2601",
+                    "nombre": "Ecuaciones Diferenciales Ordinarias",
+                    "nombre corto": "EDO",
+                    "requisitos": ["MA1002", "MA1102"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "IN2201",
+                    "nombre": "Economía",
+                    "nombre corto": "Econo",
+                    "requisitos": ["MA2001S"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EI2001",
+                    "nombre": "Taller de Proyecto",
+                    "nombre corto": "Taller",
+                    "requisitos": [],
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "FG002",
+                    "nombre": "Formación Integral",
+                    "nombre corto": "Formación Integral",
+                    "requisitos": [],
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "numero": "4",
+            "ramos": [
+                {
+                    "codigo": "FI2001",
+                    "nombre": "Mecánica",
+                    "nombre corto": "Mecánica",
+                    "requisitos": ["FI1002", "MA1002", "MA1102"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA1002",
+                    "nombre": "Cálculo en Varias Variables",
+                    "nombre corto": "CVV",
+                    "requisitos": ["MA1002", "MA1102"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA2601",
+                    "nombre": "Ecuaciones Diferenciales Ordinarias",
+                    "nombre corto": "EDO",
+                    "requisitos": ["MA1002", "MA1102"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "IN2201",
+                    "nombre": "Economía",
+                    "nombre corto": "Econo",
+                    "requisitos": ["MA2001S"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EI2001",
+                    "nombre": "Taller de Proyecto",
+                    "nombre corto": "Taller",
+                    "requisitos": [],
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "FG002",
+                    "nombre": "Formación Integral",
+                    "nombre corto": "Formación Integral",
+                    "requisitos": [],
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "numero": "5",
+            "ramos": [
+                {
+                    "codigo": "CC3001",
+                    "nombre": "Algoritmos y Estructuras de Datos",
+                    "nombre corto": "Algoritmos",
+                    "requisitos": ["CC1001/CC1002", "MA1101"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC3101",
+                    "nombre": "Matemáticas Discretas para la Computación",
+                    "nombre corto": "Discretas",
+                    "requisitos": ["CC1001/CC1002", "MA1101"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "MA3403",
+                    "nombre": "Probabilidades y Estadística",
+                    "nombre corto": "Proba y Esta",
+                    "requisitos": ["MA2001"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC3501",
+                    "nombre": "Modelación y Computación Gráfica para Ingenieros",
+                    "nombre corto": "Gráfica",
+                    "requisitos": ["CC1001/CC1002", "MA2601"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "FG002",
+                    "nombre": "Formación Integral",
+                    "nombre corto": "Formación Integral",
+                    "requisitos": [],
+                    "creditos": "3"
+                },
+                {
+                    "codigo": "FG002",
+                    "nombre": "Formación Integral",
+                    "nombre corto": "Formación Integral",
+                    "requisitos": [],
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "numero": "6",
+            "ramos": [
+                {
+                    "codigo": "CC3301",
+                    "nombre": "Programación de Software de Sistemas",
+                    "nombre corto": "PSS",
+                    "requisitos": ["CC3001"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC3001",
+                    "nombre": "Metodologías de Diseño y Programación",
+                    "nombre corto": "Metodologías",
+                    "requisitos": ["CC3001"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC3102",
+                    "nombre": "Teoría de la Computación",
+                    "nombre corto": "Teoría",
+                    "requisitos": ["CC3101", "CC3001"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC3201",
+                    "nombre": "Bases de Datos",
+                    "nombre corto": "BDD",
+                    "requisitos": ["CC3101/FI2002"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EL0001",
+                    "nombre": "Electivo de Licenciatura 1",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                }
+            ]
+        },
+        {
+            "numero": "7",
+            "ramos": [
+                {
+                    "codigo": "CC4301",
+                    "nombre": "Arquitectura de Computadores",
+                    "nombre corto": "Arqui",
+                    "requisitos": ["CC3301", "FI2002"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC4101",
+                    "nombre": "Lenguajes de Programación",
+                    "nombre corto": "Lenguajes",
+                    "requisitos": ["CC3102"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC4401",
+                    "nombre": "Ingeniería de Software",
+                    "nombre corto": "Ing de SW",
+                    "requisitos": ["CC3001", "CC3002", "CC3201"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC4901",
+                    "nombre": "Práctica Profesional I",
+                    "nombre corto": "Práctica 1",
+                    "requisitos": ["CC3002", "CC3201", "CC3301"],
+                    "creditos": "7"
+                },
+                {
+                    "codigo": "EL0003",
+                    "nombre": "Electivo de Licenciatura 2",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EL0003",
+                    "nombre": "Electivo de Licenciatura 3",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                }
+            ]
+        },
+        {
+            "numero": "8",
+            "ramos": [
+                {
+                    "codigo": "CC4302",
+                    "nombre": "Sistemas Operativos",
+                    "nombre corto": "SOs",
+                    "requisitos": ["CC4301"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC4301",
+                    "nombre": "Redes",
+                    "nombre corto": "Redes",
+                    "requisitos": ["CC4302S"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC4102",
+                    "nombre": "Diseño y Análisis de Algoritmos",
+                    "nombre corto": "Ing de SW",
+                    "requisitos": ["CC3001", "CC3002", "CC3201"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EL004",
+                    "nombre": "Electivo de Licenciatura 4",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EL0005",
+                    "nombre": "Electivo de Licenciatura 5",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                }
+            ]
+        },
+        {
+            "numero": "9",
+            "ramos": [
+                {
+                    "codigo": "IN3301",
+                    "nombre": "Evaluación de Proyectos",
+                    "nombre corto": "Evalua",
+                    "requisitos": ["IN2201", "MA3403/MA3401"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC5401",
+                    "nombre": "Ingeniería de Software II",
+                    "nombre corto": "Ing de SW 2",
+                    "requisitos": ["CC4101", "CC4401"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC5901",
+                    "nombre": "Práctica Profesional II",
+                    "nombre corto": "Práctica 2",
+                    "requisitos": ["CC4901", "CC4401", "CC4101"],
+                    "creditos": "7"
+                },
+                {
+                    "codigo": "EE0001",
+                    "nombre": "Electivo de Especialidad 1",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EE0002",
+                    "nombre": "Electivo de Especialidad 2",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "EE0004",
+                    "nombre": "Electivo de Especialidad 4",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                }
+            ]
+        },
+        {
+            "numero": "10",
+            "ramos": [
+                {
+                    "codigo": "CC6908",
+                    "nombre": "Introducción al Trabajo de Título",
+                    "nombre corto": "E",
+                    "requisitos": ["EI4205S/EI2090", "CC5401"],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CG0001",
+                    "nombre": "Gestión para Ingenieros",
+                    "nombre corto": "Gestión",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "CC5402",
+                    "nombre": "Proyecto de Software",
+                    "nombre corto": "Proyecto",
+                    "requisitos": ["IN3301", "CC5401", "CC4303", "CC4102"],
+                    "creditos": "12"
+                },
+                {
+                    "codigo": "EE0003",
+                    "nombre": "Electivo de Especialidad 3",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "FE0001",
+                    "nombre": "Formación Integral de Especialidad I",
+                    "nombre corto": "FI Especialidad",
+                    "requisitos": [],
+                    "creditos": "3"
+                }
+            ]
+        },
+        {
+            "numero": "11",
+            "ramos": [
+                {
+                    "codigo": "CC6909",
+                    "nombre": "Trabajo de Memoria de Título",
+                    "nombre corto": "F",
+                    "requisitos": ["CC6908", "EI4205/EI2090", "CC5402"],
+                    "creditos": "21"
+                },
+                {
+                    "codigo": "EE0003",
+                    "nombre": "Electivo de Especialidad 3",
+                    "nombre corto": "Electivo",
+                    "requisitos": [],
+                    "creditos": "6"
+                },
+                {
+                    "codigo": "FE0001",
+                    "nombre": "Formación Integral de Especialidad I",
+                    "nombre corto": "FI Especialidad",
+                    "requisitos": [],
+                    "creditos": "3"
+                }
+            ]
+        }
+    ]
+}
