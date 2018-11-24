@@ -10,13 +10,15 @@ class Renderer:
         self.data = json.loads(contents)
 
     def render_program(self):
-        pass
+        doc = Doc()
+        with doc.tag('tr'):
+            for semester in iter(r.data['semestres']):
+                self.render_semester(semester)
 
-    def render_semestre(self):
+    def render_semester(self, semester):
         pass
 
 
 if __name__ == '__main__':
     r = Renderer('../malla.json')
-    for semester in iter(r.data['semestres']):
-        print(semester)
+    r.render_program()
