@@ -12,10 +12,17 @@ class Renderer:
     def render_program(self):
         doc = Doc()
         with doc.tag('tr'):
-            for semester in iter(r.data['semestres']):
-                self.render_semester(semester)
+            for semester in iter(r.data.get('semestres')):
+                self.render_semester(semester, doc)
+        return doc.getvalue()
 
-    def render_semester(self, semester):
+    def render_semester(self, semester, doc):
+        with doc.tag('td', klass='rotate'):
+            doc.text('Semestre ' + semester.get('numero'))
+        for ramo in iter(semester['ramos']):
+            self.render_ramo(ramo, doc)
+
+    def render_ramo(self, ramo, doc):
         pass
 
 
