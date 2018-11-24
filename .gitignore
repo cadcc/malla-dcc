@@ -4,3 +4,4 @@ Scripts/
 pyvenv.cfg
 .idea/
 pip-selfcheck.json
+out.html

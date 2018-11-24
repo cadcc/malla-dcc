@@ -35,4 +35,9 @@ class Renderer:
 
 if __name__ == '__main__':
     r = Renderer('../malla.json')
-    print(r.render_program())
+    with open('../base.html', encoding='utf8') as f:
+        base = f.read()
+    out = base.replace('{{ content }}', r.render_program())
+    with open('../out.html', 'w', encoding='utf8') as out_file:
+        out_file.write(out)
+
