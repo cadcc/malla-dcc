@@ -23,14 +23,29 @@ class Renderer:
             self.render_course(ramo)
 
     def render_course(self, ramo):
-        with self.doc.tag('td', ('data-requirements', str(ramo.get('requisitos'))), klass='ramo', id=ramo.get('codigo')):
-            self.render_course_element('codigo', ramo.get('codigo'))
-            self.render_course_element('nombre', ramo.get('nombre'))
-            self.render_course_element('creditos', ramo.get('creditos') + ' créditos')
+        self.doc.asis(self.generate_opening_td(ramo))
+        self.render_course_element('codigo', ramo.get('codigo'))
+        self.render_course_element('nombre', ramo.get('nombre'))
+        self.render_course_element('creditos', ramo.get('creditos') + ' créditos')
+        self.doc.asis('</td>')
 
     def render_course_element(self, name, data):
         with self.doc.tag('div', klass=name):
             self.doc.text(data)
+
+    def generate_opening_td(self, ramo):
+        reqs = ""
+        rm = "[]''"
+        for req in str(ramo.get('requisitos')).split(','):
+            for char in rm:
+                req = req.replace(char, "")
+            if req != "":
+                req = req.strip()
+                toadd = ('"' + req + '", ')
+                reqs += toadd
+        requirement_string = reqs[:-2]
+        return "<td data-requirements='[" + requirement_string + "]' class='ramo' id='" + ramo.get('codigo') + "'>"
+
 
 
 if __name__ == '__main__':
