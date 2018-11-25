@@ -1,0 +1,36 @@
+#malla {
+    text-transform: uppercase;
+    width: 100%;
+    border-collapse: separate;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+#malla .ramo {
+    font-family: 'Open Sans';
+    border: 1px solid #cbd0d7;
+    display: inline-block;
+    height: 130px;
+    width: 115px;
+    padding: 5px 0;
+    margin: 1px 1px;
+}
+
+#malla .nombre, #malla .creditos {
+    font-size: 9px;
+    padding: 5px;
+    display: block;
+}
+
+#malla td {
+    text-align: center;
+}
+
+#malla td:nth-child(1) {
+    width: 20px;
+    height: 10px;
+}
+
+.semester {
+    transform: rotate(-90deg);
+}
