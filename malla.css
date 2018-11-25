@@ -42,24 +42,34 @@
     height: 10px;
 }
 
-.semester {
+#malla tr:nth-of-type(4) td {
+    margin-bottom: 10px;
+}
+
+#malla tr:nth-child(even) td {
+    background-color: #dad2bc;
+}
+
+#malla .semester {
+    background-color: #ffffff !important;
     transform: rotate(-90deg);
+    z-index: -1;
 }
 
 #malla .simul {
     opacity: 1 !important;
-    background-color: #82d173;
+    background-color: #82d173 !important;
 }
 
 #malla .req {
     opacity: 1 !important;
-    background-color: #44bba4;
+    background-color: #44bba4 !important;
 }
 
 
 #malla .or {
     opacity: 1 !important;
-    background-color: #e7bb41;
+    background-color: #e7bb41 !important;
 }
 
 #malla .blur {
