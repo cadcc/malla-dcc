@@ -4,20 +4,17 @@ let ramos = document.getElementsByClassName("ramo");
 let addOrRequirement = function(reqs) {
     let ids = reqs.split("/");
     for (let i = 0; i < ids.length; i++) {
-        console.log(ids[i]);
         let requirement = document.getElementById(ids[i]);
         requirement.classList.add("or")
     }
 };
 
 let addSimRequirement = function(req) {
-    console.log(req);
     let requirement = document.getElementById(req);
     requirement.classList.add("simul");
 };
 
 let addNormalRequirement = function(req) {
-    console.log(req);
     let requirement = document.getElementById(req);
     requirement.classList.add("req");
 };
