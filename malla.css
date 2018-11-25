@@ -13,13 +13,23 @@
     height: 130px;
     width: 115px;
     padding: 5px 0;
-    margin: 1px 1px;
+    margin: 1px 1px 0 1px;
+    background-color: azure;
 }
 
 #malla .nombre, #malla .creditos {
     font-size: 9px;
     padding: 5px;
     display: block;
+}
+
+#malla .nombre, #malla .codigo {
+    font-weight: bold;
+}
+
+#malla .codigo {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #malla td {
