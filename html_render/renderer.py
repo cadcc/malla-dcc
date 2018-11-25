@@ -33,6 +33,7 @@ class Renderer:
         with self.doc.tag('div', klass=name):
             self.doc.text(data)
 
+    # TODO ver si se puede optimizar esto?
     def generate_opening_td(self, ramo):
         reqs = ""
         rm = "[]''"

@@ -14,7 +14,8 @@
     width: 115px;
     padding: 5px 0;
     margin: 1px 1px 0 1px;
-    background-color: azure;
+    background-color: #d3d0cb;
+    color: #393e41;
 }
 
 #malla .nombre, #malla .creditos {
@@ -43,4 +44,24 @@
 
 .semester {
     transform: rotate(-90deg);
+}
+
+#malla .simul {
+    opacity: 1 !important;
+    background-color: #82d173;
+}
+
+#malla .req {
+    opacity: 1 !important;
+    background-color: #44bba4;
+}
+
+
+#malla .or {
+    opacity: 1 !important;
+    background-color: #e7bb41;
+}
+
+#malla .blur {
+    opacity: 0.6;
 }
