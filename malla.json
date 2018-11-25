@@ -54,7 +54,7 @@
                     "codigo": "FI1002",
                     "nombre": "Sistemas Newtonianos",
                     "nombre corto": "Sist. Newtonianos",
-                    "requisitos": ["FI1001", "CC1000/CC1001", "MA1001"],
+                    "requisitos": ["FI1001", "CC1000/CC1002", "MA1001"],
                     "creditos": "6"
                 },
                 {
@@ -195,14 +195,14 @@
                     "codigo": "CC3001",
                     "nombre": "Algoritmos y Estructuras de Datos",
                     "nombre corto": "Algoritmos",
-                    "requisitos": ["CC1001/CC1002", "MA1101"],
+                    "requisitos": ["CC1002", "MA1101"],
                     "creditos": "6"
                 },
                 {
                     "codigo": "CC3101",
                     "nombre": "Matemáticas Discretas para la Computación",
                     "nombre corto": "Discretas",
-                    "requisitos": ["CC1001/CC1002", "MA1101"],
+                    "requisitos": ["CC1002", "MA1101"],
                     "creditos": "6"
                 },
                 {
@@ -216,7 +216,7 @@
                     "codigo": "CC3501",
                     "nombre": "Modelación y Computación Gráfica para Ingenieros",
                     "nombre corto": "Gráfica",
-                    "requisitos": ["CC1001/CC1002", "MA2601"],
+                    "requisitos": ["CC1002", "MA2601"],
                     "creditos": "6"
                 },
                 {
@@ -333,7 +333,7 @@
                     "creditos": "6"
                 },
                 {
-                    "codigo": "CC4301",
+                    "codigo": "CC4303",
                     "nombre": "Redes",
                     "nombre corto": "Redes",
                     "requisitos": ["CC4302S"],
