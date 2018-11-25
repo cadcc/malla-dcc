@@ -33,6 +33,9 @@ let addRequirement = function(req) {
 };
 
 let ramoMouseOver = function() {
+    for (let i = 0; i < ramos.length; i++) {
+        ramos[i].className = "ramo";
+    }
     let id = this.getAttribute("id");
     let requirements = JSON.parse(this.getAttribute("data-requirements"));
     for (let i = 0; i < ramos.length; i++) {
@@ -45,14 +48,6 @@ let ramoMouseOver = function() {
     }
 };
 
-let ramoMouseOut = function() {
-    console.log('out');
-    for (let i = 0; i < ramos.length; i++) {
-        ramos[i].className = "ramo";
-    }
-};
-
 for (let i = 0; i < ramos.length; i++) {
     ramos[i].addEventListener('mouseover', ramoMouseOver, false);
-    ramos[i].addEventListener('mouseout', ramoMouseOut, false);
 }
