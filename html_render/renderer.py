@@ -33,19 +33,13 @@ class Renderer:
         with self.doc.tag('div', klass=name):
             self.doc.text(data)
 
-    # TODO ver si se puede optimizar esto?
     def generate_opening_td(self, ramo):
-        reqs = ""
-        rm = "[]''"
-        for req in str(ramo.get('requisitos')).split(','):
-            for char in rm:
-                req = req.replace(char, "")
-            if req != "":
-                req = req.strip()
-                toadd = ('"' + req + '", ')
-                reqs += toadd
-        requirement_string = reqs[:-2]
-        return "<td data-requirements='[" + requirement_string + "]' class='ramo' id='" + ramo.get('codigo') + "'>"
+        requirements = map(
+            lambda req: '"{}"'.format(req),
+            ramo.get('requisitos', [])
+        )
+        requirements_string = ','.join(requirements)
+        return "<td asd data-requirements='[" + requirements_string + "]' class='ramo' id='" + ramo.get('codigo') + "'>"
 
 
 
