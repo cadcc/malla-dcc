@@ -17,7 +17,7 @@ class Renderer:
         return self.doc.getvalue()
 
     def render_semester(self, semester):
-        with self.doc.tag('td', klass='rotate'):
+        with self.doc.tag('td', klass='semester'):
             self.doc.text('Semestre ' + semester.get('numero'))
         for ramo in iter(semester['ramos']):
             self.render_course(ramo)
@@ -26,7 +26,7 @@ class Renderer:
         with self.doc.tag('td', klass='ramo'):
             self.render_course_element('codigo', ramo.get('codigo'))
             self.render_course_element('nombre', ramo.get('nombre'))
-            self.render_course_element('creditos', ramo.get('creditos'))
+            self.render_course_element('creditos', ramo.get('creditos') + ' créditos')
 
     def render_course_element(self, name, data):
         with self.doc.tag('div', klass=name):
