@@ -23,7 +23,7 @@ class Renderer:
             self.render_course(ramo)
 
     def render_course(self, ramo):
-        with self.doc.tag('td', ('data-requirements', str(ramo.get('requisitos'))), klass='ramo'):
+        with self.doc.tag('td', ('data-requirements', str(ramo.get('requisitos'))), klass='ramo', id=ramo.get('codigo')):
             self.render_course_element('codigo', ramo.get('codigo'))
             self.render_course_element('nombre', ramo.get('nombre'))
             self.render_course_element('creditos', ramo.get('creditos') + ' créditos')
