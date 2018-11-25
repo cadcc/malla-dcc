@@ -369,7 +369,7 @@
                     "codigo": "IN3301",
                     "nombre": "Evaluación de Proyectos",
                     "nombre corto": "Evalua",
-                    "requisitos": ["IN2201", "MA3403/MA3401"],
+                    "requisitos": ["IN2201", "MA3403"],
                     "creditos": "6"
                 },
                 {
@@ -416,7 +416,7 @@
                     "codigo": "CC6908",
                     "nombre": "Introducción al Trabajo de Título",
                     "nombre corto": "E",
-                    "requisitos": ["EI4205S/EI2090", "CC5401"],
+                    "requisitos": ["CC5401"],
                     "creditos": "6"
                 },
                 {
@@ -456,7 +456,7 @@
                     "codigo": "CC6909",
                     "nombre": "Trabajo de Memoria de Título",
                     "nombre corto": "F",
-                    "requisitos": ["CC6908", "EI4205/EI2090", "CC5402"],
+                    "requisitos": ["CC6908", "CC5402"],
                     "creditos": "21"
                 },
                 {
