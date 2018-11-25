@@ -86,7 +86,7 @@
                     "creditos": "3"
                 },
                 {
-                    "codigo": "FG001",
+                    "codigo": "FG0001",
                     "nombre": "Formación Integral",
                     "nombre corto": "Formación Integral",
                     "requisitos": [],
@@ -105,7 +105,7 @@
                     "creditos": "6"
                 },
                 {
-                    "codigo": "MA1002",
+                    "codigo": "MA2001",
                     "nombre": "Cálculo en Varias Variables",
                     "nombre corto": "CVV",
                     "requisitos": ["MA1002", "MA1102"],
@@ -133,7 +133,7 @@
                     "creditos": "3"
                 },
                 {
-                    "codigo": "FG002",
+                    "codigo": "FG0002",
                     "nombre": "Formación Integral",
                     "nombre corto": "Formación Integral",
                     "requisitos": [],
@@ -145,42 +145,42 @@
             "numero": "4",
             "ramos": [
                 {
-                    "codigo": "FI2001",
-                    "nombre": "Mecánica",
+                    "codigo": "FI2004/CM2004",
+                    "nombre": "Termodinámica o Fisicoquímica",
                     "nombre corto": "Mecánica",
-                    "requisitos": ["FI1002", "MA1002", "MA1102"],
+                    "requisitos": ["CM1001", "MA2001", "FI2001S"],
                     "creditos": "6"
                 },
                 {
-                    "codigo": "MA1002",
-                    "nombre": "Cálculo en Varias Variables",
-                    "nombre corto": "CVV",
-                    "requisitos": ["MA1002", "MA1102"],
+                    "codigo": "MA2002",
+                    "nombre": "Cálculo Avanzado y Aplicaciones",
+                    "nombre corto": "CAA",
+                    "requisitos": ["MA2001", "MA2601"],
                     "creditos": "6"
                 },
                 {
-                    "codigo": "MA2601",
-                    "nombre": "Ecuaciones Diferenciales Ordinarias",
-                    "nombre corto": "EDO",
-                    "requisitos": ["MA1002", "MA1102"],
+                    "codigo": "FI2002",
+                    "nombre": "Electromagnetismo",
+                    "nombre corto": "Electro",
+                    "requisitos": ["FI2001", "MA2001", "MA2601"],
                     "creditos": "6"
                 },
                 {
-                    "codigo": "IN2201",
-                    "nombre": "Economía",
-                    "nombre corto": "Econo",
-                    "requisitos": ["MA2001S"],
+                    "codigo": "FI2003",
+                    "nombre": "Métodos Experimentales",
+                    "nombre corto": "Métodos",
+                    "requisitos": ["MA2001", "CM1001", "EI1102", "FI2001", "MA2601"],
                     "creditos": "6"
                 },
                 {
-                    "codigo": "EI2001",
-                    "nombre": "Taller de Proyecto",
-                    "nombre corto": "Taller",
+                    "codigo": "FG0003",
+                    "nombre": "Formación Integral",
+                    "nombre corto": "Formación Integral",
                     "requisitos": [],
                     "creditos": "3"
                 },
                 {
-                    "codigo": "FG002",
+                    "codigo": "FG0004",
                     "nombre": "Formación Integral",
                     "nombre corto": "Formación Integral",
                     "requisitos": [],
@@ -220,14 +220,14 @@
                     "creditos": "6"
                 },
                 {
-                    "codigo": "FG002",
+                    "codigo": "FG005",
                     "nombre": "Formación Integral",
                     "nombre corto": "Formación Integral",
                     "requisitos": [],
                     "creditos": "3"
                 },
                 {
-                    "codigo": "FG002",
+                    "codigo": "FG006",
                     "nombre": "Formación Integral",
                     "nombre corto": "Formación Integral",
                     "requisitos": [],
