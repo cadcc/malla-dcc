@@ -246,7 +246,7 @@
                     "creditos": "6"
                 },
                 {
-                    "codigo": "CC3001",
+                    "codigo": "CC3002",
                     "nombre": "Metodologías de Diseño y Programación",
                     "nombre corto": "Metodologías",
                     "requisitos": ["CC3001"],
