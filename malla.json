@@ -343,7 +343,7 @@
                     "codigo": "CC4102",
                     "nombre": "Diseño y Análisis de Algoritmos",
                     "nombre corto": "Ing de SW",
-                    "requisitos": ["CC3001", "CC3002", "CC3201", "MA3403"],
+                    "requisitos": ["MA3403", "CC3102", "FI2003"],
                     "creditos": "6"
                 },
                 {
