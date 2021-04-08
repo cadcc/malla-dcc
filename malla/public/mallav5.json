@@ -51,24 +51,24 @@
             "number": 2,
             "subjects": [
                 {
-                    "code": "FI1002",
-                    "name": "Sistemas Newtonianos",
-                    "shortName": "Sist. Newtonianos",
-                    "requirements": ["FI1001", "CC1000/CC1002", "MA1001"],
+                    "code": "FI1100",
+                    "name": "Introducción a la Física Moderna",
+                    "shortName": "Moderna",
+                    "requirements": ["FI1000", "MA1001", "MA1101"],
                     "credits": "6"
                 },
                 {
                     "code": "MA1002",
                     "name": "Cálculo Diferencial e Integral",
                     "shortName": "Diferencial",
-                    "requirements": ["MA1001", "MA1101S"],
+                    "requirements": ["MA1001"],
                     "credits": "6"
                 },
                 {
                     "code": "MA1102",
                     "name": "Álgebra Lineal",
                     "shortName": "Lineal",
-                    "requirements": ["MA1001S", "MA1101"],
+                    "requirements": ["MA1101"],
                     "credits": "6"
                 },
                 {
@@ -79,10 +79,10 @@
                     "credits": "6"
                 },
                 {
-                    "code": "EI1102",
-                    "name": "Introducción a la Ingeniería II",
-                    "shortName": "Intro II",
-                    "requirements": [],
+                    "code": "CD1201",
+                    "name": "Proyecto de Innovación en Ingeniería y Ciencias",
+                    "shortName": "Proyecto",
+                    "requirements": ["CD1100"],
                     "credits": "3"
                 },
                 {
