@@ -138,13 +138,6 @@
             "number": 4,
             "subjects": [
                 {
-                    "code": "FI2004/CM2004",
-                    "name": "Termodinámica o Fisicoquímica",
-                    "shortName": "Mecánica",
-                    "requirements": ["CM1001", "MA2001", "FI2001S"],
-                    "credits": "6"
-                },
-                {
                     "code": "MA2002",
                     "name": "Cálculo Avanzado y Aplicaciones",
                     "shortName": "CAA",
@@ -155,32 +148,32 @@
                     "code": "IN2201",
                     "name": "Economía",
                     "shortName": "Econo",
-                    "requirements": ["MA2001S"],
+                    "requirements": ["MA2001"],
                     "credits": "6"
                 },
                 {
                     "code": "FI2002",
                     "name": "Electromagnetismo",
                     "shortName": "Electro",
-                    "requirements": ["FI2001", "MA2001", "MA2601"],
+                    "requirements": ["MA2001", "MA2601", "FI2003"],
                     "credits": "6"
                 },
                 {
-                    "code": "FI2003",
-                    "name": "Métodos Experimentales",
-                    "shortName": "Métodos",
-                    "requirements": ["MA2001", "CM1001", "EI1102", "FI2001", "MA2601"],
+                    "code": "FI2004/IQ2212",
+                    "name": "Termodinámica/Termodinámica Química",
+                    "shortName": "Termo",
+                    "requirements": ["IQ2211","FI2001","MA2001"],
                     "credits": "6"
                 },
                 {
-                    "code": "FG0003",
-                    "name": "Formación Integral",
-                    "shortName": "Formación Integral",
-                    "requirements": [],
+                    "code": "CD2201",
+                    "name": "Módulo Interdisciplinario",
+                    "shortName": "Módulo",
+                    "requirements": ["CD1201"],
                     "credits": "3"
                 },
                 {
-                    "code": "FG0004",
+                    "code": "FG0002",
                     "name": "Formación Integral",
                     "shortName": "Formación Integral",
                     "requirements": [],
