@@ -232,16 +232,16 @@
             "number": 6,
             "subjects": [
                 {
-                    "code": "CC3301",
-                    "name": "Programación de Software de Sistemas",
-                    "shortName": "PSS",
+                    "code": "CC3201",
+                    "name": "Bases de Datos",
+                    "shortName": "Batos",
                     "requirements": ["CC3001"],
                     "credits": "6"
                 },
                 {
                     "code": "CC3002",
                     "name": "Metodologías de Diseño y Programación",
-                    "shortName": "Metodologías",
+                    "shortName": "Memes",
                     "requirements": ["CC3001"],
                     "credits": "6"
                 },
@@ -249,14 +249,14 @@
                     "code": "CC3102",
                     "name": "Teoría de la Computación",
                     "shortName": "Teoría",
-                    "requirements": ["CC3101", "CC3001"],
+                    "requirements": ["CC3101"],
                     "credits": "6"
                 },
                 {
-                    "code": "CC3201",
-                    "name": "Bases de Datos",
-                    "shortName": "BDD",
-                    "requirements": ["CC3101/FI2002"],
+                    "code": "CC3301",
+                    "name": "Programación de Software de Sistemas",
+                    "shortName": "PSS",
+                    "requirements": ["CC3001"],
                     "credits": "6"
                 },
                 {
