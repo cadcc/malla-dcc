@@ -185,20 +185,6 @@
             "number": 5,
             "subjects": [
                 {
-                    "code": "CC3001",
-                    "name": "Algoritmos y Estructuras de Datos",
-                    "shortName": "Algoritmos",
-                    "requirements": ["CC1002", "MA1101"],
-                    "credits": "6"
-                },
-                {
-                    "code": "CC3101",
-                    "name": "Matemáticas Discretas para la Computación",
-                    "shortName": "Discretas",
-                    "requirements": ["CC1002", "MA1101"],
-                    "credits": "6"
-                },
-                {
                     "code": "MA3403",
                     "name": "Probabilidades y Estadística",
                     "shortName": "Proba y Esta",
@@ -209,18 +195,32 @@
                     "code": "CC3501",
                     "name": "Modelación y Computación Gráfica para Ingenieros",
                     "shortName": "Gráfica",
-                    "requirements": ["CC1002", "MA2601"],
+                    "requirements": ["MA2001", "MA2601", "CC1002", "FI2001"],
                     "credits": "6"
                 },
                 {
-                    "code": "FG0005",
+                    "code": "CC3001",
+                    "name": "Algoritmos y Estructuras de Datos",
+                    "shortName": "Algoritmos",
+                    "requirements": ["CC1002"],
+                    "credits": "6"
+                },
+                {
+                    "code": "CC3101",
+                    "name": "Matemáticas Discretas para la Computación",
+                    "shortName": "Discretas",
+                    "requirements": ["MA1101", "CC1002"],
+                    "credits": "6"
+                },
+                {
+                    "code": "FG0003",
                     "name": "Formación Integral",
                     "shortName": "Formación Integral",
                     "requirements": [],
                     "credits": "3"
                 },
                 {
-                    "code": "FG0006",
+                    "code": "FG0004",
                     "name": "Formación Integral",
                     "shortName": "Formación Integral",
                     "requirements": [],
