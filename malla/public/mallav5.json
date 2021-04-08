@@ -4,8 +4,8 @@
             "number": 1,
             "subjects": [
                 {
-                    "code": "FI1001",
-                    "name": "Introducción a la Física Newtoniana",
+                    "code": "FI1000",
+                    "name": "Introducción a la Física Clásica",
                     "shortName": "Intro a la Física",
                     "requirements": [],
                     "credits": "6"
@@ -32,16 +32,16 @@
                     "credits": "3"
                 },
                 {
-                    "code": "EI1001",
-                    "name": "Introducción a la Ingeniería I",
-                    "shortName": "Intro a la Ing",
+                    "code": "CD1100",
+                    "name": "Desafíos de Innovación en Ingeniería y Ciencias",
+                    "shortName": "Desafíos",
                     "requirements": [],
-                    "credits": "3"
+                    "credits": "6"
                 },
                 {
-                    "code": "CM1001",
-                    "name": "Química",
-                    "shortName": "Química",
+                    "code": "BT1211",
+                    "name": "Aplicaciones de la Biología a la Ingeniería y Ciencias",
+                    "shortName": "Biología",
                     "requirements": [],
                     "credits": "3"
                 }
