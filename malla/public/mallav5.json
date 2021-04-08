@@ -98,13 +98,6 @@
             "number": 3,
             "subjects": [
                 {
-                    "code": "FI2001",
-                    "name": "Mecánica",
-                    "shortName": "Mecánica",
-                    "requirements": ["FI1002", "MA1002", "MA1102"],
-                    "credits": "6"
-                },
-                {
                     "code": "MA2001",
                     "name": "Cálculo en Varias Variables",
                     "shortName": "CVV",
@@ -119,25 +112,25 @@
                     "credits": "6"
                 },
                 {
-                    "code": "IN2201",
-                    "name": "Economía",
-                    "shortName": "Econo",
-                    "requirements": ["MA2001S"],
+                    "code": "FI2001",
+                    "name": "Mecánica",
+                    "shortName": "Mecánica",
+                    "requirements": ["FI1100", "MA1002", "MA1102"],
                     "credits": "6"
                 },
                 {
-                    "code": "EI2001",
-                    "name": "Taller de Proyecto",
-                    "shortName": "Taller",
-                    "requirements": [],
-                    "credits": "3"
+                    "code": "FI2003",
+                    "name": "Métodos Experimentales",
+                    "shortName": "Métodos",
+                    "requirements": ["FI1100", "MA1002"],
+                    "credits": "6"
                 },
                 {
-                    "code": "FG0002",
-                    "name": "Formación Integral",
-                    "shortName": "Formación Integral",
+                    "code": "IQ2211",
+                    "name": "Química",
+                    "shortName": "Química",
                     "requirements": [],
-                    "credits": "3"
+                    "credits": "6"
                 }
             ]
         },
@@ -156,6 +149,13 @@
                     "name": "Cálculo Avanzado y Aplicaciones",
                     "shortName": "CAA",
                     "requirements": ["MA2001", "MA2601"],
+                    "credits": "6"
+                },
+		{
+                    "code": "IN2201",
+                    "name": "Economía",
+                    "shortName": "Econo",
+                    "requirements": ["MA2001S"],
                     "credits": "6"
                 },
                 {
