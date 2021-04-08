@@ -263,7 +263,7 @@
                     "code": "EL0001",
                     "name": "Electivo de Licenciatura 1",
                     "shortName": "Electivo",
-                    "requirements": [],
+                    "requirements": [],	
                     "credits": "6"
                 }
             ]
@@ -272,32 +272,32 @@
             "number": 7,
             "subjects": [
                 {
-                    "code": "CC4301",
-                    "name": "Arquitectura de Computadores",
-                    "shortName": "Arqui",
-                    "requirements": ["CC3301", "FI2002"],
-                    "credits": "6"
-                },
-                {
-                    "code": "CC4101",
-                    "name": "Lenguajes de Programación",
-                    "shortName": "Lenguajes",
-                    "requirements": ["CC3102"],
+                    "code": "CC5205",
+                    "name": "Minería de Datos",
+                    "shortName": "Minería",
+                    "requirements": ["CC3001"],
                     "credits": "6"
                 },
                 {
                     "code": "CC4401",
                     "name": "Ingeniería de Software",
                     "shortName": "Ing de SW",
-                    "requirements": ["CC3001", "CC3002", "CC3201"],
+                    "requirements": ["CC3002", "CC3201"],
                     "credits": "6"
                 },
                 {
-                    "code": "CC4901",
-                    "name": "Práctica Profesional I",
-                    "shortName": "Práctica 1",
-                    "requirements": ["CC3002", "CC3201", "CC3301"],
-                    "credits": "7"
+                    "code": "CC4102",
+                    "name": "Diseño y Análisis de Algoritmos",
+                    "shortName": "Logaritmos",
+                    "requirements": ["MA3403", "CC3001", "CC3102"],
+                    "credits": "6"
+                },
+                {
+                    "code": "CC4302",
+                    "name": "Sistemas Operativos",
+                    "shortName": "SOs",
+                    "requirements": ["CC3301"],
+                    "credits": "6"
                 },
                 {
                     "code": "EL0003",
@@ -307,22 +307,22 @@
                     "credits": "6"
                 },
                 {
-                    "code": "EL0003",
-                    "name": "Electivo de Licenciatura 3",
-                    "shortName": "Electivo",
-                    "requirements": [],
-                    "credits": "6"
-                }
+                    "code": "CC4901",
+                    "name": "Práctica Profesional I",
+                    "shortName": "Práctica 1",
+                    "requirements": ["CC3002", "CC3201", "CC3301"],
+                    "credits": "7"
+                },
             ]
         },
         {
             "number": 8,
             "subjects": [
                 {
-                    "code": "CC4302",
-                    "name": "Sistemas Operativos",
-                    "shortName": "SOs",
-                    "requirements": ["CC4301"],
+                    "code": "CC4101",
+                    "name": "Lenguajes de Programación",
+                    "shortName": "Lenguajes",
+                    "requirements": ["CC3102"],
                     "credits": "6"
                 },
                 {
@@ -330,13 +330,6 @@
                     "name": "Redes",
                     "shortName": "Redes",
                     "requirements": ["CC4302S"],
-                    "credits": "6"
-                },
-                {
-                    "code": "CC4102",
-                    "name": "Diseño y Análisis de Algoritmos",
-                    "shortName": "Ing de SW",
-                    "requirements": ["MA3403", "CC3102", "FI2003"],
                     "credits": "6"
                 },
                 {
