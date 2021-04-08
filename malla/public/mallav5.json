@@ -312,12 +312,19 @@
                     "shortName": "Práctica 1",
                     "requirements": ["CC3002", "CC3201", "CC3301"],
                     "credits": "7"
-                },
+                }
             ]
         },
         {
             "number": 8,
             "subjects": [
+                {
+                    "code": "CC4402",
+                    "name": "Formulación, Evaluación y Gestión de Proyectos",
+                    "shortName": "Evalua",
+                    "requirements": ["CC4401", "IN2201", "CD2201"],
+                    "credits": "6"
+                },
                 {
                     "code": "CC4101",
                     "name": "Lenguajes de Programación",
@@ -351,13 +358,6 @@
         {
             "number": 9,
             "subjects": [
-                {
-                    "code": "IN3301",
-                    "name": "Evaluación de Proyectos",
-                    "shortName": "Evalua",
-                    "requirements": ["IN2201", "MA3403"],
-                    "credits": "6"
-                },
                 {
                     "code": "CC5401",
                     "name": "Ingeniería de Software II",
