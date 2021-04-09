@@ -336,7 +336,7 @@
                     "code": "CC4303",
                     "name": "Redes",
                     "shortName": "Redes",
-                    "requirements": ["CC4302S"],
+                    "requirements": ["CC4302"],
                     "credits": "6"
                 },
                 {
@@ -359,20 +359,6 @@
             "number": 9,
             "subjects": [
                 {
-                    "code": "CC5401",
-                    "name": "Ingeniería de Software II",
-                    "shortName": "Ing de SW 2",
-                    "requirements": ["CC4101", "CC4401"],
-                    "credits": "6"
-                },
-                {
-                    "code": "CC5901",
-                    "name": "Práctica Profesional II",
-                    "shortName": "Práctica 2",
-                    "requirements": ["CC4901", "CC4401", "CC4101"],
-                    "credits": "7"
-                },
-                {
                     "code": "EE0001",
                     "name": "Electivo de Especialidad 1",
                     "shortName": "Electivo",
@@ -392,7 +378,35 @@
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
-                }
+                },
+                {
+                    "code": "CG0001",
+                    "name": "Núcleo Gestión para Ingenieros",
+                    "shortName": "Gestión",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "FE0001",
+                    "name": "Formación Integral de Especialidad I",
+                    "shortName": "FI Especialidad",
+                    "requirements": [],
+                    "credits": "3"
+                },
+                {
+                    "code": "FE0002",
+                    "name": "Formación Integral de Especialidad II",
+                    "shortName": "FI Especialidad",
+                    "requirements": [],
+                    "credits": "3"
+                },
+                {
+                    "code": "CC5901",
+                    "name": "Práctica Profesional II",
+                    "shortName": "Práctica 2",
+                    "requirements": ["CC4901", "CC4401", "CC4101"],
+                    "credits": "7"
+                },
             ]
         },
         {
@@ -403,13 +417,6 @@
                     "name": "Introducción al Trabajo de Título",
                     "shortName": "E",
                     "requirements": ["CC5401"],
-                    "credits": "6"
-                },
-                {
-                    "code": "CG0001",
-                    "name": "Gestión para Ingenieros",
-                    "shortName": "Gestión",
-                    "requirements": [],
                     "credits": "6"
                 },
                 {
@@ -425,13 +432,6 @@
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
-                },
-                {
-                    "code": "FE0001",
-                    "name": "Formación Integral de Especialidad I",
-                    "shortName": "FI Especialidad",
-                    "requirements": [],
-                    "credits": "3"
                 }
             ]
         },
@@ -451,13 +451,6 @@
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
-                },
-                {
-                    "code": "FE0002",
-                    "name": "Formación Integral de Especialidad II",
-                    "shortName": "FI Especialidad",
-                    "requirements": [],
-                    "credits": "3"
                 }
             ]
         }
