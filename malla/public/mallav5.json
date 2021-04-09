@@ -413,18 +413,11 @@
             "number": 10,
             "subjects": [
                 {
-                    "code": "CC6908",
+                    "code": "CC6907",
                     "name": "Introducción al Trabajo de Título",
                     "shortName": "E",
-                    "requirements": ["CC5401"],
+                    "requirements": ["CC4402"],
                     "credits": "6"
-                },
-                {
-                    "code": "CC5402",
-                    "name": "Proyecto de Software",
-                    "shortName": "Proyecto",
-                    "requirements": ["IN3301", "CC5401", "CC4303", "CC4102"],
-                    "credits": "12"
                 },
                 {
                     "code": "EE0004",
@@ -432,6 +425,20 @@
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
+                },
+                {
+                    "code": "EE0004",
+                    "name": "Electivo de Especialidad 5",
+                    "shortName": "Electivo",
+                    "requirements": [],
+                    "credits": "6"
+                },
+                {
+                    "code": "CC5402",
+                    "name": "Proyecto de Software",
+                    "shortName": "Proyecto",
+                    "requirements": ["CC5205", "CC4402"],
+                    "credits": "12"
                 }
             ]
         },
