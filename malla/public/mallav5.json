@@ -446,15 +446,15 @@
             "number": 11,
             "subjects": [
                 {
-                    "code": "CC6909",
-                    "name": "Trabajo de Memoria de Título",
+                    "code": "CC6919",
+                    "name": "Trabajo de Título",
                     "shortName": "F",
-                    "requirements": ["CC6908", "CC5402"],
-                    "credits": "21"
+                    "requirements": ["CC6907"],
+                    "credits": "24"
                 },
                 {
                     "code": "EE0005",
-                    "name": "Electivo de Especialidad 5",
+                    "name": "Electivo de Especialidad 6",
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
