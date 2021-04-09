@@ -406,7 +406,7 @@
                     "shortName": "Práctica 2",
                     "requirements": ["CC4901", "CC4401", "CC4101"],
                     "credits": "7"
-                },
+                }
             ]
         },
         {
@@ -427,7 +427,7 @@
                     "credits": "6"
                 },
                 {
-                    "code": "EE0004",
+                    "code": "EE0005",
                     "name": "Electivo de Especialidad 5",
                     "shortName": "Electivo",
                     "requirements": [],
