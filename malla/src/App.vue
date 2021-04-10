@@ -50,7 +50,8 @@
 </template>
 
 <script>
-import malla from '../public/malla.json';
+import mallav3 from '../public/mallav3.json';
+import mallav5 from '../public/mallav5.json';
 import Semester from './components/semester';
 import Toggle from './components/toggle';
 
