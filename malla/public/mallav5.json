@@ -160,7 +160,7 @@
                 },
                 {
                     "code": "FI2004/IQ2212",
-                    "name": "Termodinámica/Termodinámica Química",
+                    "name": "Termodinámica / Termodinámica Química",
                     "shortName": "Termo",
                     "requirements": ["IQ2211","FI2001","MA2001"],
                     "credits": "6"
