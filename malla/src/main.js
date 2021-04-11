@@ -48,9 +48,10 @@ const store = createStore({
       context.commit('setDarkMode', !context.state.darkMode);
     },
     toggleMalla: context => {
-      const newValue = context.state.mallaActiva === 'mallav3'? 'mallav5': 'mallav3';
+      const newValue =
+        context.state.mallaActiva === 'mallav3' ? 'mallav5' : 'mallav3';
       context.commit('setMalla', newValue);
-    }
+    },
   },
   plugins: [createLogger()],
 });
