@@ -6,6 +6,7 @@ import './css/application.css';
 const store = createStore({
   state() {
     return {
+      mallaActiva: 'mallav3',
       darkMode:
         window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches
@@ -33,6 +34,9 @@ const store = createStore({
     setDarkMode: (state, payload) => {
       state.darkMode = payload;
     },
+    setMalla: (state, payload) => {
+      state.mallaActiva = payload;
+    },
   },
   actions: {
     clearActiveSubject: context => {
@@ -42,6 +46,11 @@ const store = createStore({
     },
     toggleDarkMode: context => {
       context.commit('setDarkMode', !context.state.darkMode);
+    },
+    toggleMalla: context => {
+      const newValue =
+        context.state.mallaActiva === 'mallav3' ? 'mallav5' : 'mallav3';
+      context.commit('setMalla', newValue);
     },
   },
   plugins: [createLogger()],
