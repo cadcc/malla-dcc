@@ -61,7 +61,7 @@
           </div>
         </div>
       </div>
-      <div>
+      <div class="max-w-screen-xl">
         <semester
           v-for="(semester, index) in semesters"
           :key="index"
@@ -88,11 +88,11 @@ export default {
     Toggle,
   },
   computed: {
-    semesters(){
+    semesters() {
       return this.$store.state.mallaActiva === 'mallav3'
         ? mallav3.semesters
         : mallav5.semesters;
-    }
-  }
+    },
+  },
 };
 </script>
