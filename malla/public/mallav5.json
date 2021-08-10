@@ -341,14 +341,14 @@
                 },
                 {
                     "code": "EL0004",
-                    "name": "Electivo de Licenciatura 4",
+                    "name": "Electivo de Licenciatura 3",
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
                 },
                 {
                     "code": "EL0005",
-                    "name": "Electivo de Licenciatura 5",
+                    "name": "Electivo de Licenciatura 4",
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
