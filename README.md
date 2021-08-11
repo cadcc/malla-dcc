@@ -2,7 +2,7 @@
 
 Malla de ramos del DCC, porque [la oficial](https://www.dcc.uchile.cl/malla-icc) no era muy bonita.
 
-Versión en vivo [acá](https://users.dcc.uchile.cl/~sleiva/) 
+Versión en vivo [acá](https://malla.cadcc.cl) 
 
 Para cambiar los datos, basta con modificar el archivo `public/malla.json`
 
