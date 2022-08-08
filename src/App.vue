@@ -26,9 +26,9 @@
         class="mb-4"
         @toggle="$store.dispatch('toggleMalla')"
         id="malla"
-        active-text="v3"
-        non-active-text="v5"
-        :value="$store.state.mallaActiva === 'mallav3'"
+        active-text="v5"
+        non-active-text="v3"
+        :value="$store.state.mallaActiva === 'mallav5'"
       />
       <div>
         <div class="flex flex-col items-center mb-4 md:flex-row">
