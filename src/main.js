@@ -6,7 +6,7 @@ import './css/application.css';
 const store = createStore({
   state() {
     return {
-      mallaActiva: 'mallav3',
+      mallaActiva: 'mallav5',
       darkMode:
         window.matchMedia &&
         window.matchMedia('(prefers-color-scheme: dark)').matches

@@ -7,6 +7,7 @@
           type="checkbox"
           class="hidden"
           @change="$emit('toggle')"
+          checked
         />
         <div
           class="w-10 h-4 bg-gray-400 rounded-full shadow-inner toggle__line"
