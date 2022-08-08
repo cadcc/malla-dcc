@@ -265,6 +265,13 @@
                     "shortName": "Electivo",
                     "requirements": [],	
                     "credits": "6"
+                },
+                {
+                    "code": "CC4900",
+                    "name": "Taller de Práctica Profesional I",
+                    "shortName": "Taller de Práctica 1",
+                    "requirements": [],	
+                    "credits": "0"
                 }
             ]
         },
@@ -310,7 +317,7 @@
                     "code": "CC4901",
                     "name": "Práctica Profesional I",
                     "shortName": "Práctica 1",
-                    "requirements": ["CC3002", "CC3201", "CC3301"],
+                    "requirements": ["CC3002", "CC3201", "CC3301", "CC4900"],
                     "credits": "7"
                 }
             ]
@@ -352,6 +359,13 @@
                     "shortName": "Electivo",
                     "requirements": [],
                     "credits": "6"
+                },
+                {
+                    "code": "CC5900",
+                    "name": "Taller de Práctica Profesional II",
+                    "shortName": "Taller de Práctica 2",
+                    "requirements": ["CC4901"],	
+                    "credits": "0"
                 }
             ]
         },
